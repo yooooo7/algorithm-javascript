@@ -28,7 +28,6 @@ function combiner(left, right) {
   }
 
   return result.concat(left.slice(leftPointer)).concat(right.slice(rightPointer))
-
 }
 
 function checkOutOfRange(array, index) {
